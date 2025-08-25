@@ -10,11 +10,12 @@ body {
     Display: flex;
     justify-content: space-between;
     padding: 10px 0px 20px 0px;
+    position: sticky;
 }
 
 .first-section {
     background-color: #1F2937;
-    padding: 10px 100px;
+    padding: 10px 100px 20px;;
 }
 
 .hero-main-text {
@@ -45,8 +46,6 @@ ul {
 
 .hero-img {
     flex: 1;
-    background-color: grey;
-    
 }
 
 img {
@@ -61,7 +60,7 @@ img {
     padding: 40px;
     flex-wrap: wrap;
     gap: 30px;
-    background-color: grey;
+    background-color: rgb(78, 78, 79);
     border-radius: 25px;
 }
 
@@ -76,5 +75,17 @@ img {
     
 }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: rgb(30, 30, 68);
+}
 
 
