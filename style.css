@@ -9,13 +9,13 @@ body {
 .header {
     Display: flex;
     justify-content: space-between;
-    padding: 10px 0px 20px 0px;
+    padding: 10px 0px 50px 0px;
     position: sticky;
 }
 
 .first-section {
     background-color: #1F2937;
-    padding: 10px 100px 20px;;
+    padding: 10px 100px 80px;
 }
 
 .hero-main-text {
@@ -48,7 +48,7 @@ ul {
     flex: 1;
 }
 
-img {
+.hero-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -88,4 +88,29 @@ button:hover {
     background-color: rgb(30, 30, 68);
 }
 
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 30px;
+    text-align: center;
+    flex: 1 0 auto;
+}
+
+.benefit-image {
+    height: 200px;
+    width: 200px;
+}
+
+.benefit-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 4px solid rgb(25, 92, 237);
+    border-radius: 16px;
+}
