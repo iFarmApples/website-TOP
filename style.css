@@ -89,14 +89,14 @@ button:hover {
 }
 
 .second-section {
-    padding: 30px;
+    padding: 60px 30px;
 }
 
 .information-header {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -134,4 +134,34 @@ button:hover {
     box-sizing: border-box;
     border: 4px solid rgb(25, 92, 237);
     border-radius: 16px;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 100px;
+}
+
+.quote-author {
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+    max-width: 1200px;
+    flex: 1 1 0;
+    gap: 30px;
+    align-items: center;
+    margin: auto;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.author {
+    align-self: end;
+    font-weight: 700;
+    font-size: 18px;
 }
