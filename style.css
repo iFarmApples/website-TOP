@@ -9,8 +9,12 @@ body {
 .header {
     Display: flex;
     justify-content: space-between;
-    padding: 10px 0px 50px 0px;
     position: sticky;
+    top:0;
+    padding: 10px 100px;
+    background-color: #1F2937;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(234, 233, 233);
 }
 
 .first-section {
@@ -31,9 +35,8 @@ a {
 }
 
 .logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
+   height: 24px;
+   width: 60px;
 }
 
 ul {
